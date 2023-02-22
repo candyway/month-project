@@ -1,22 +1,27 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import'./media.css';
 
 *{
     font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    min-width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* NAVIGATION */
+
+.nav{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
 
 .nav-row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 145px 25px 152px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
 
 .nav-row-right{
@@ -90,6 +95,7 @@
 
 .phone{
     background-image: url(../img/Phone1.svg);
+    background-repeat: no-repeat;
 }
 
 /* 1 секция */
@@ -421,7 +427,6 @@ margin-bottom: 100px;
 
 .section6-cards{
     display: flex;
-    flex-wrap: nowrap;
     gap: 15px;
     margin-top: 41px;
     margin-bottom: 100px;
@@ -742,7 +747,11 @@ font-size: 14px;
 }
 
 .footer-icons{
+    display: flex;
+    justify-content: center;
     margin-top: 27px;
+    gap: 20px;
+
 }
 
 .footer-txt{

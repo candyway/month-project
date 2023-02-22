@@ -1,0 +1,171 @@
+@media (max-width:425px){
+    
+    .nav-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks{
+        padding: 0px!important;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .nav-img{
+        margin-bottom: 15px;
+    }
+
+    .nav-row-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links{
+    gap: 15px!important;
+    }
+
+    .phone{
+        margin-top: 15px;
+    }
+
+    .header{
+        flex-direction: column;
+        display: flex;
+        padding: 0px!important;
+        max-height: unset;
+    }
+    
+    .header{
+        max-height: unset;
+    }
+
+    .header-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-title{
+        font-size: 30px!important;
+        text-align: center;
+    }
+
+    .section1-title{
+        text-align: center;
+    }
+
+    .section2{
+        flex-wrap: wrap;
+    }
+
+    .block3{
+        margin: 10px 20px!important;
+    }
+
+    .section3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3-left{
+        margin-top: 40px!important;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .section3-right{
+        margin-top: 40px!important;
+    }
+
+    .section4{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4-left{
+        order:1;
+        margin-top: 10px!important;
+    }
+
+    .section4-right{
+        margin-top: 20px!important;
+        text-align: center;
+    }
+
+    .section6-cards{
+        flex-direction:column;
+    }
+
+    .section7-cards{
+        flex-direction: column;
+    }
+
+    .section9{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .section9-ltxt4{
+        margin-bottom: 40px!important;
+    }
+
+    .section9-rtxt{
+        margin-top: 20px!important;
+    }
+
+    .section9-right{
+        margin-bottom: 30px!important;
+    }
+
+    .footer-txt{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:768px){
+    .header{
+        padding: 0px!important;
+        margin-top: 30px!important;
+    }   
+
+    .nav-row{
+        flex-direction: column;
+    }
+
+    .phone{
+        width: 250px;
+        height: 350px;
+        background-size: 100%;
+    }
+
+    .header-txt{
+        margin-top: 0px!important;
+    }
+
+    .header-btns{
+        margin-top: 5px!important;
+    }
+
+    .blocks{
+        display: flex;
+        padding: 0px 2px!important;
+        gap:5px!important;
+    }
+
+    .section6-cards{
+        display: flex;
+        flex-wrap: wrap!important;
+        justify-content: center;
+    }
+
+    .section6-card{
+        width: 350px!important;
+    }
+
+    .section7-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
